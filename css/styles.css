@@ -41,6 +41,14 @@ header.masthead h1 {
 	font-size: 2rem;
 }
 
+.bg-white {
+    background-color: #fff!important;
+}
+
+.blue {
+	color: #164e9b;
+}
+
 @media (min-width: 768px) {
 	header.masthead {
 		padding-top: 12rem;
@@ -158,10 +166,40 @@ section.metro-login img.background-img {
     top: 100px;
 }
 
-.logo_wrapper {
+.logo_wrapper, .navbar .menuitem {
     position: absolute;
 }
 
 .float_right {
     float: right;
+}
+
+section.eiq_reg_metro img {
+	/*width: 100%;*/
+}
+
+section.eiq_reg_metro p {
+    margin: 15px auto 25px;
+    max-width: 650px;
+}
+
+a#menu1 {
+    right: 430px;
+}
+
+a#menu2 {
+    right: 350px;
+}
+
+a#menu3 {
+    right: 300px;
+}
+
+section.accr_cert_metro img {
+	margin: 30px auto;
+}
+
+section.accr_cert_metro h3 {
+    text-align: center;
+    margin: 30px 0;
 }
