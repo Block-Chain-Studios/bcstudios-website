@@ -23,8 +23,10 @@
 			<div class="container landing-page-movies-wrapper">
 			    <div class="row">
 			        <div class="col-sm-6">
-			        	<img src="img/landing-movie-2.jpg" alt="movie image" />
-			        	<a href="#" class="btn btn-danger btn-lg">
+			        	<a href="http://socialblock.amplewebsites.com/wyldwest" target="_blank">
+			        		<img src="img/landing-movie-2.jpg" alt="movie image" />
+			        	</a>
+			        	<a href="http://socialblock.amplewebsites.com/wyldwest" target="_blank" class="btn btn-danger btn-lg">
 							COMING SOON
 						</a>
 			        </div>
