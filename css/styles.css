@@ -160,7 +160,7 @@ section img.background-img {
     top: 200px;
 }
 
-.d-logo-wrapper {
+.d_logo_wrapper {
     right: 200px;
     top: 650px;
 }
@@ -281,7 +281,7 @@ div#myModal {
     position: relative;
     display: block;
 }
-
+.orange { color: #fc0505; }
 a.btn.btn-danger.btn-lg { border: none; }
 ul.nav.nav-tabs p { font-family: 'future_earthregular'; text-transform: uppercase; }
 .black-bg { background-color: #000; }
@@ -289,6 +289,9 @@ ul.nav.nav-tabs p { color: #fff; font-size: 12px; }
 ul.nav.nav-tabs img { padding: 20px 0px 5px; height: 89px; }
 ul.nav.nav-tabs .fa:before { color: #fff; }
 .nav-tabs, ul.nav.nav-tabs li.active a { border: none; }
+.card button { width: 100%; text-align: left; }
+section.voting_booth p { margin: 25px 0; }
+#accordion { margin-bottom: 35px; }
 .landing-page-movies-wrapper img { width: 95%; }
 .landing-page-movies-wrapper a.btn {
     font-size: 13px;

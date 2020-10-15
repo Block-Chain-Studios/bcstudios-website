@@ -29,8 +29,10 @@
 						</a>
 			        </div>
 			        <div class="col-sm-6">
-			        	<img src="img/landing-movie-1.jpg" alt="movie image" />
-			        	<a href="#" class="btn btn-danger btn-lg">
+			        	<a href="/tflix_elpat">
+			        		<img src="img/landing-movie-1.jpg" alt="movie image" />
+			        	</a>
+			        	<a href="/tflix_elpat" class="btn btn-danger btn-lg">
 							INVEST NOW
 						</a>
 					</div>

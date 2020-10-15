@@ -1,0 +1,1 @@
+<img src="img/voting_booth_header.jpg" alt="header" style="width: 100%;" />
