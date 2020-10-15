@@ -4,6 +4,14 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-landing-page/blob/master/LICENSE)
  */
 
+ @font-face {
+    font-family: "future_earthregular";
+    src: url('../fonts/webfontkit/future_earth_v2-webfont.woff2') format('woff2'),
+         url('../fonts/webfontkit/future_earth_v2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
 	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -39,6 +47,14 @@ header.masthead .overlay {
 
 header.masthead h1 {
 	font-size: 2rem;
+}
+
+.bg-white {
+    background-color: #fff!important;
+}
+
+.blue {
+	color: #164e9b;
 }
 
 @media (min-width: 768px) {
@@ -128,8 +144,9 @@ footer.footer {
 
 
 
-section.metro-login img.background-img {
+section img.background-img {
 	position: absolute;
+	width: 100%;
 	z-index: -1;
 }
 
@@ -158,10 +175,125 @@ section.metro-login img.background-img {
     top: 100px;
 }
 
-.logo_wrapper {
+.logo_wrapper, .navbar .menuitem {
     position: absolute;
 }
 
 .float_right {
     float: right;
+}
+
+section.eiq_reg_metro img {
+	/*width: 100%;*/
+}
+
+section.eiq_reg_metro p {
+    margin: 15px auto 25px;
+    max-width: 650px;
+}
+
+a#menu1 {
+    right: 430px;
+}
+
+a#menu2 {
+    right: 350px;
+}
+
+a#menu3 {
+    right: 300px;
+}
+
+section.accr_cert_metro img {
+	margin: 30px auto;
+}
+
+section.accr_cert_metro h3 {
+	margin: 30px 0;
+    text-align: center;
+}
+
+section.listing .logo_wrapper {
+	right: 25px;
+	top: 25px;
+}
+
+section.listing .popup_image .img1, section.listing .popup_image .img2 {
+	position: absolute;
+	margin-top: 610px;
+    float: right;
+}
+
+section.listing .popup_image div {
+    float: left;
+    margin-left: 10px;
+    height: 110px;
+    overflow: hidden;
+}
+
+section.listing .popup_image .img1 {
+    right: 530px;
+}
+
+section.listing .popup_image .img2 {
+    right: 350px;
+}
+
+.popup_image img {
+	height: 100px;
+    max-width: 165px;
+}
+
+div#myModal img {
+    max-width: 800px;
+    max-height: 800px;
+    margin: 5% auto;
+}
+
+div#myModal {
+	background-color: rgb(0 0 0 / 70%);
+    margin: 0 auto;
+    height: 100%;
+}
+
+.bs-component {
+    position: relative;
+}
+
+.nav-tabs {
+    margin-bottom: 15px;
+}
+
+.nav {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.nav-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+    width: 33.33%;
+    text-align: center;
+}
+
+.nav > li {
+    position: relative;
+    display: block;
+}
+
+a.btn.btn-danger.btn-lg { border: none; }
+ul.nav.nav-tabs p { font-family: 'future_earthregular'; text-transform: uppercase; }
+.black-bg { background-color: #000; }
+ul.nav.nav-tabs p { color: #fff; font-size: 12px; }
+ul.nav.nav-tabs img { padding: 20px 0px 5px; height: 89px; }
+ul.nav.nav-tabs .fa:before { color: #fff; }
+.nav-tabs, ul.nav.nav-tabs li.active a { border: none; }
+.landing-page-movies-wrapper img { width: 95%; }
+.landing-page-movies-wrapper a.btn {
+    font-size: 13px;
+    font-family: 'future_earthregular';
+    padding: 20px 50px;
+    text-transform: uppercase;
+    background: transparent;
 }
