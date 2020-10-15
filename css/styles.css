@@ -284,6 +284,7 @@ div#myModal {
 
 a.btn.btn-danger.btn-lg { border: none; }
 ul.nav.nav-tabs p { font-family: 'future_earthregular'; text-transform: uppercase; }
+.black-bg { background-color: #000; }
 ul.nav.nav-tabs p { color: #fff; font-size: 12px; }
 ul.nav.nav-tabs img { padding: 20px 0px 5px; height: 89px; }
 ul.nav.nav-tabs .fa:before { color: #fff; }
