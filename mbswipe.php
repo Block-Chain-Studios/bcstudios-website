@@ -4,7 +4,7 @@
 <section class="metro-login">
     <img src="img/metro_login.jpg" alt="metro login image" class="background-img" />
     <div class="login_logo_wrapper logo_wrapper float_right">
-        <a href="/login" class="logo-img-wrapper">
+        <a href="https://socialblock.amplewebsites.com" target="_blank" class="logo-img-wrapper">
             <img src="img/metro_login_login.png" alt="" />
         </a>
     </div>

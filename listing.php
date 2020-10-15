@@ -5,17 +5,21 @@
     <img src="img/listing-bg.jpg" alt="form" class="background-img" />
 
     <div class="logo_wrapper float_right">
-        <a href="#" class="logo-img-wrapper" target="_blank">
+        <a href="http://socialblock.amplewebsites.com/wyldwest" class="logo-img-wrapper" target="_blank">
             <img src="img/listing-logo.jpg" class="logo" alt="logo" />
         </a>
     </div>
 
     <div class="popup_image">
         <div class="img1">
-            <img src="img/listing-map.jpg" alt="map" />    
+            <a href="/map">
+                <img src="img/listing-map.jpg" alt="map" />  
+            </a>
         </div>
         <div class="img2">
-            <img src="img/listing-img.jpg" alt="image" />    
+            <a href="/image1">
+                <img src="img/listing-img.jpg" alt="image" />
+            </a>
         </div>
     </div>
 
