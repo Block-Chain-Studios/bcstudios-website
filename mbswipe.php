@@ -13,6 +13,16 @@
             <img src="img/metro_login_cashport.png" alt="" />
         </a>
     </div>
+    <div class="eig_page_logo_wrapper logo_wrapper" style="
+    max-width: 150px;
+    top: 50%;
+    left: 200px;">
+        <a href="/eiq_reg_metro" class="logo-img-wrapper" target="_blank">
+            <img src="img/eiq_reg_metro.jpg" alt="" style="
+    max-width: 100%;
+">
+        </a>
+    </div>
     <div class="moneybutton_logo_wrapper logo_wrapper float_right">
         <a href="https://www.moneybutton.com/" class="logo-img-wrapper" target="_blank">
             <img src="img/metro_login_moneybutton.png" alt="" />
