@@ -1,7 +1,6 @@
 <?php include 'header.php'; ?>
 <?php include 'voting_booth_header.php'; ?>
 
-<!-- Call to Action -->
 <section class="voting_booth">
     <div class="container">
         <div class="row">
@@ -47,5 +46,6 @@
         </div>
     </div>
 </section>
+<a href="javascript:history.back()" class="btn btn-primary" id="zBackBtn">&#8592; Back</a>
 
 <?php include 'footer.php'; ?>

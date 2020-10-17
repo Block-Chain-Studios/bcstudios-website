@@ -83,5 +83,6 @@
         </div>
     </div>
 </section>
+<a href="javascript:history.back()" class="btn btn-primary" id="zBackBtn">&#8592; Back</a>
 
 <?php include 'footer.php'; ?>
