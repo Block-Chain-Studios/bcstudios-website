@@ -22,6 +22,9 @@
 		<div style="font-size: 85px;font-weight: bold;clear: both;padding: 100px 0px 0px 0px; text-align:center; color: #fff;" class="">
 			<div class="container landing-page-movies-wrapper">
 			    <div class="row">
+			    	<div class="col-sm-12">
+			    		<h3 style="color: red; text-transform: uppercase; text-align: center; margin-bottom: 50px;">For educational purposes only</h3>
+			    	</div>
 			        <div class="col-sm-6">
 			        	<a href="http://socialblock.amplewebsites.com/wyldwest" target="_blank">
 			        		<img src="img/landing-movie-2.jpg" alt="movie image" />
@@ -74,6 +77,8 @@
 			</div>
 		</div>
 	</div>
+
+	<a href="javascript:history.back()" class="btn btn-primary" id="zBackBtn">&#8592; Back</a>
 </div>
 
 <?php include 'footer.php';?>

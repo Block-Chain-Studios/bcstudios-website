@@ -1,6 +1,5 @@
 <?php include 'header.php'; ?>
 
-<!-- Call to Action -->
 <section class="listing">
     <img src="img/map.jpg" alt="form" class="background-img" />
 
@@ -10,5 +9,6 @@
         </a>
     </div>
 </section>
+<a href="javascript:history.back()" class="btn btn-primary" id="zBackBtn">&#8592; Back</a>
 
 <?php include 'footer.php'; ?>
